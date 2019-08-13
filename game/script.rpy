@@ -156,29 +156,42 @@ define p2 = Character('Bastien', color="#8e44ad")
 define p3 = Character('Clémence', color="#2980b9")
 define p4 = Character('Dorian', color="#138d75")
 
-
 transform Gauche:
+ yalign 0.8
+ xalign 0.2
+
+transform GaucheMiddle:
+ yalign 0.8
+ xalign 0.35
+ 
+transform Droit:
  yalign 0.8
  xalign 0.8
  xzoom -1
 
-transform GaucheMiddle:
+transform DroitMiddle:
  yalign 0.8
  xalign 0.65
  xzoom -1
  
-transform Droit:
- yalign 0.8
- xalign 0.2
+#écran affiché avant le menu du jeu
+label splashscreen: # create a label for your splashscreen
+    #play music mysong # This is optional
+    scene black
+    with Pause(2) # You can change the pause time
 
-transform DroitMiddle:
- yalign 0.8
- xalign 0.35
+    show text "Projet 1..." with dissolve
+    with Pause(2)
+    hide text with dissolve
+    with Pause(2)
+return
+
  
 # Le jeu commence ici
 label start:
-
-jump test_perso_images
+call test_text
+#call test_perso_images
+call test_scenes
 
 #scene bg bar
 #play music "sounds/jazz.mp3" fadeout 1

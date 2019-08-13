@@ -63,7 +63,7 @@ define gui.interface_text_color = '#ffffff'
 define gui.text_font = "DejaVuSans.ttf"
 
 ## Les polices utilisées pour le nom des personnages.
-define gui.name_text_font = "DejaVuSans.ttf"
+define gui.name_text_font = "BRITANIC.TTF"
 
 ## Les polices utilisées pour les textes « hors du jeu ».
 define gui.interface_text_font = "DejaVuSans.ttf"
