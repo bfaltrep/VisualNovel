@@ -7,27 +7,17 @@ Il permet l'intégration de mini-jeux basés sur la bibliothèque "Pygame".
 <h2>Fait</h2>
 
 <h3>Son</h3>
+	<h4>Musiques</h4>
 	Des musiques générées avec <a href="http://tones.wolfram.com/generate/GcDu19gyJnJRb0usfw4fUfMZFOr2zGuh8oXeRlbmhm3UKM">Wolfram</a> et <a href="https://www.fesliyanstudios.com/royalty-free-music">Royalty free music</a> dont voici quelques exemples.</br>
-	<audio controls> 
-		<source src="game\images\sounds\calm.mp3" type="audio/mpeg"> 
-		<p>Le navigateur ne prend pas en charge l'audio HTML. Les fichiers se trouvent dans /game/images/sounds</p>
-	</audio></br>
-	<audio controls> 
-		<source src="game\images\sounds\calm2.mp3" type="audio/mpeg">
-		<p>Le navigateur ne prend pas en charge l'audio HTML. Les fichiers se trouvent dans /game/images/sounds</p>
-	</audio></br>
-	<audio controls> 
-		<source src="game\images\sounds\jazz.mp3" type="audio/mpeg">
-		<p>Le navigateur ne prend pas en charge l'audio HTML. Les fichiers se trouvent dans /game/images/sounds</p>
-	</audio></br>
+	<!--
 	<audio controls>
-		<source src="game\images\sounds\piano.mp3" type="audio/mpeg">
+		<source src="game\images\sounds\musics\piano.mp3" type="audio/mpeg">
 		<p>Le navigateur ne prend pas en charge l'audio HTML. Les fichiers se trouvent dans /game/images/sounds</p>
-	</audio></br>
-	<audio controls>
-		<source src="game\images\sounds\vampires.mp3" type="audio/mpeg">
-		<p>Le navigateur ne prend pas en charge l'audio HTML. Les fichiers se trouvent dans /game/images/sounds</p>
-	</audio></br>
+	</audio></br> 
+	-->
+	<h4>Sons</h4>
+	Récupérés sur la banque de sons gratuits <a href="http://www.universal-soundbank.com/">Universal sound</a>.
+
 <h3>Images</h3>
 
 <ul>
@@ -59,8 +49,8 @@ Il permet l'intégration de mini-jeux basés sur la bibliothèque "Pygame".
 un test des images des personnes.
 
 <h3>Minijeux</h3>
-Un minijeu de "2048" développé sous pygame est disponible dans game/subgame.
-
+Aucune obligation de les utiliser. </br>
+Un minijeu de "2048" développé sous pygame est disponible dans game/subgames.
 
 <h2>A faire</h2>
 

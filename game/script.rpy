@@ -189,9 +189,10 @@ return
  
 # Le jeu commence ici
 label start:
-call test_text
+call test_chapters
+#call test_text
 #call test_perso_images
-call test_scenes
+#call test_scenes
 
 #scene bg bar
 #play music "sounds/jazz.mp3" fadeout 1

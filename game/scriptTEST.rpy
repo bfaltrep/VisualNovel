@@ -216,3 +216,18 @@ label test_text:
 
 return
 
+label test_chapters:
+
+scene bg creme
+show p1 green_tired_tong at Gauche
+"TEST" "personnage qui parle"
+
+call chapter_1
+
+scene bg creme
+show p1 green_tired_tong at Gauche
+"TEST" "personnage qui parle"
+
+call Generique
+
+return
